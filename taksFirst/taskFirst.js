@@ -10,7 +10,7 @@
 
 let enterNamber = parseInt(prompt('Введите число : '));
 function factorial(enterNambper) {
-  var res = 1;
+  let res = 1;
   while (enterNamber) res *= enterNamber--;
   return res;
 }
